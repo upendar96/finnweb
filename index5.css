@@ -1,0 +1,199 @@
+*{
+padding:0;
+margin:0;
+}
+nav{
+	background-color: transparent;
+	font-weight: 600;
+	color:rgb(8, 8, 8);
+
+}
+
+#ani {
+	h4{
+		color:#1B4242;
+	}
+	h1 {
+		color: hsl(0, 4%, 5%);
+		font-size: 50px;
+		font-weight: bold;
+		font-family: monospace;
+		letter-spacing: 7px;
+		cursor: pointer;
+	  }
+	  
+	  h1 span {
+		transition: 0.5s ease-out;
+	  }
+	  h1:hover span:nth-child(1) {
+		margin-right: 5px;
+	  }
+	 
+	  h1:hover span:nth-child(2) {
+		margin-left: 30px;
+	  }
+	  h1:hover span {
+		color: #2b0930b1;
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+	  }
+}
+
+
+
+#header a{
+	color:rgb(10, 9, 9);
+	margin-left:10px;
+	font-size:16px;
+}
+
+
+#header a:hover{
+
+    color:#638889;
+}
+
+.carousel-caption{
+	color:black;
+}
+.img-fluid:hover{
+	
+	transform: scale(1.1); 
+	
+	padding-top: -40px;
+	
+}
+.img-fluid{
+	transition: transform .2s;
+	cursor: pointer;
+}
+
+
+
+
+
+.container-item img{
+	height: 300px;
+}
+
+#second #fourth{
+	font-family:'Open Sans', sans-serif;;
+}
+#second .card:hover{
+	background-color: #638889;
+
+}
+
+#fourth h1
+{
+	color:brown;
+}
+
+.contact-card{
+	
+	
+	
+	color:rgb(14, 13, 13);
+	font-weight: 400;
+	h3{
+		color:#042929;
+		font-size: 30px;
+		font-family: Lucida Bright;
+	}
+	h4{
+		color:#042929;
+		font-family: Lucida Bright;
+	}
+	.card-text{
+		color:#647D87;
+	}
+}
+#contacthead1{
+	color:#647D87;
+}
+.contact-cardup{
+	h3{
+		color: rgb(57, 9, 9);
+	}
+	.card-text{
+		color:#1B4242;
+	}
+	h4{
+		color:#1B4242;
+	}
+}
+
+.contact-card:hover{
+	
+	
+   transition-timing-function: ease-out;
+   .card-footer{
+
+	background: #0766AD;
+	color: white !important;
+   }
+}
+
+.form-login{
+	background:whitesmoke;
+	
+	
+	margin:auto;
+	padding: 20px;
+	 h4{
+		color: #0b0c0c;
+	 }
+
+}
+
+#contact{
+
+	z-index:1;
+}
+
+
+
+.card-footer button{
+	
+	font-weight: 600;
+	color:#0b0c0c
+	
+}
+
+.card-footer button:hover{
+	background-color: darkcyan;
+}
+
+
+#colimg1:hover{
+	transition-property:all;
+	transition-duration: 2s;
+	transition-timing-function: ease-out;
+	transition-delay: 0.5s;
+}
+
+
+.cardsection:hover{
+	margin-top: -6px;
+	margin-right: -6px;
+	
+	background-color: #0e7c80;
+
+
+}
+
+
+
+
+.footer{
+	color:whitesmoke;
+	li{
+		list-style-type: none;
+	}
+}
+
+
+/* #second{
+	background-color: #3D3B40;
+
+
+} */
